@@ -1,3 +1,4 @@
+*{padding: 0;margin: 0;}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,72 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.red{
+  background: red;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.homelist img{
+  width: 120px;
+  height: 120px;
+}
+.title{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: black;
+  text-align: center;
+}
+.title a{
+  margin-left: 10px;
+}
+.cart_center{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cart{
+  padding: 10px;
+  box-sizing: border-box;
+}
+.cart_item{
+  width: 33.3%;
+  height: 100%;
+  list-style: none;
+  padding: 3px;
+  box-sizing: border-box;
+}
+.cart_item img{
+  width: 110px;
+  height: 110px;
+}
+.cart_price{
+  color: red;
+}
+.cart a{
+  text-decoration: none;
+  color: #000;
+}
+.cartdet img{
+  width: 100%;
+  height: 100%;
+}
+.cartdet{
+  padding: 10px;
+  box-sizing: border-box;
+}
+.cart_back{
+  position: fixed;
+  top:8px;
+  left:8px;
+  width: 45px;
+  height: 45px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background:rgba(0,0,0.3);
+  color:white;
+  font-size: 13px;
 }
